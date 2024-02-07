@@ -9,6 +9,18 @@ ul, li, menu{
     list-style: none;
 }
 
+body{
+    font-family: 'Abel', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Nabla', system-ui;
+font-family: 'Noto Serif', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
 a{
     text-decoration: none;
     color: currentColor;
@@ -18,6 +30,15 @@ button{
     background-color: white;
     border-radius: 20px;
     padding: 5px;
+    font-family: font-family: 'Abel', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Nabla', system-ui;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;;
     border: none;
 }
 
@@ -26,7 +47,7 @@ button{
 
 #app{
     height: calc(100vh - 100px);
-    background-color: rgb(238, 51, 18);
+    background: linear-gradient(yellow, red);
     display: flex;
     
 }
@@ -57,12 +78,18 @@ header{
     padding: 5px;
 }
 
+.menu-header a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
 button.btn-profile{
    position: absolute;
    left: 15px;
    bottom: 15px; 
 }
 main{
+    padding-bottom: 30px;
     background-color: rgb(156, 37, 16);
     width: calc(100vw - 20%);
     overflow: auto;
@@ -74,7 +101,7 @@ main{
     margin: 0 auto;
     border-radius: 30px;
     margin-top: 20px;
-    background-color: rgb(231, 181, 20);
+    background: linear-gradient(red, yellow);
     position: relative;
 }
 
@@ -93,6 +120,7 @@ main{
 
 h2{
     padding: 15px 0;
+    color: rgb(255, 208, 0);
 }
 
 .content{
@@ -132,7 +160,7 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(82, 80, 73);
+    background: linear-gradient(red, yellow);
     
 }
 
@@ -142,6 +170,7 @@ footer{
 
 .logo-footer img{
     width: 50px;
+    padding-left: 10px;
 }
 
 .link-footer{
@@ -149,9 +178,19 @@ footer{
     justify-content: space-between;
 }
 
-.link-footer a{
-    padding: 10px;
+.link-footer a:hover{
+    color: red;
 }
+
+.link-footer a{
+    padding-left: 10px;
+}
+
+.social{
+    padding-right: 10px;
+}
+
+
 
 
 
