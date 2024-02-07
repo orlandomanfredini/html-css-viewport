@@ -11,7 +11,7 @@ ul, li, menu{
 
 a{
     text-decoration: none;
-    color: white;
+    color: currentColor;
 }
 
 button{
@@ -19,4 +19,33 @@ button{
     border-radius: 20px;
     padding: 5px;
 }
+
+
+/* layout */
+
+#app{
+    height: 100vh;
+    background-color: rgb(238, 51, 18);
+    display: flex;
+    
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+   min-width: 280px;
+   text-align: center;
+  
+}
+
+.logo img{
+    width: 80px;
+}
+
+
+
 
