@@ -18,37 +18,54 @@ button{
     background-color: white;
     border-radius: 20px;
     padding: 5px;
+    border: none;
 }
 
 
 /* layout */
 
 #app{
-    height: 100vh;
+    height: calc(100vh - 100px);
     background-color: rgb(238, 51, 18);
     display: flex;
     
 }
 
 .container{
-    max-width: 90%;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px 20px;
 }
 
 header{
-   min-width: 280px;
+   min-width: 20%;
    text-align: center;
+   position: relative;
   
 }
 
 .logo img{
     width: 80px;
+    padding-top: 20px;
 }
 
+.menu-header{
+    padding-top: 30px;
+}
+
+.menu-header li{
+    padding: 5px;
+}
+
+button.btn-profile{
+   position: absolute;
+   left: 15px;
+   bottom: 15px; 
+}
 main{
     background-color: rgb(156, 37, 16);
-    width: calc(100vw - 280px);
+    width: calc(100vw - 20%);
+    overflow: auto;
 }
 
 .subscribe{
@@ -59,6 +76,13 @@ main{
     margin-top: 20px;
     background-color: rgb(231, 181, 20);
     position: relative;
+}
+
+.subscribe img{
+    width: 28px;
+    position: absolute;
+    left: 25px;
+    top: 13px;
 }
 
 .subscribe button{
@@ -87,11 +111,11 @@ h2{
 }
 
 .col3 p{
-    padding-top: 5px;
+    padding: 5px 5px 0px 5px;
 }
 
 .content2 p{
-    padding-bottom: 15px;
+    padding: 15px 0;
 
 }
 
@@ -103,12 +127,17 @@ h2{
 
 
 footer{
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(82, 80, 73);
     
+}
+
+.container .foot{
+    max-width: 100%;
 }
 
 .logo-footer img{
