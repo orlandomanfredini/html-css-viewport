@@ -47,7 +47,7 @@ button{
 
 #app{
     height: calc(100vh - 100px);
-    background: linear-gradient(yellow, red);
+    background-color:  red;
     display: flex;
     
 }
@@ -79,7 +79,7 @@ header{
 }
 
 .menu-header a:hover{
-    color: red;
+    color:rgb(255, 174, 0);
     text-decoration: underline;
 }
 
@@ -90,7 +90,7 @@ button.btn-profile{
 }
 main{
     padding-bottom: 30px;
-    background-color: rgb(156, 37, 16);
+    background-color: rgb(226, 95, 72);
     width: calc(100vw - 20%);
     overflow: auto;
 }
@@ -131,15 +131,17 @@ h2{
 .col3{
     width: calc(3 * 100% / 12);
     padding-top: 15px;
+    padding-right: 10px;
 }
 
 .col3 img{
-    max-width: 50%;
+    max-width: 75%;
     padding-top: 10px;
 }
 
 .col3 p{
     padding: 5px 5px 0px 5px;
+    font-size: 15px;
 }
 
 .content2 p{
@@ -151,6 +153,10 @@ h2{
     padding-top: 10px;
 }
 
+.content2 li{
+    padding-top: 7px;
+}
+
 
 
 
@@ -160,7 +166,7 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(red, yellow);
+    background-color:red ;
     
 }
 
@@ -170,7 +176,7 @@ footer{
 
 .logo-footer img{
     width: 50px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .link-footer{
@@ -179,7 +185,7 @@ footer{
 }
 
 .link-footer a:hover{
-    color: red;
+    color: rgb(255, 174, 0);
 }
 
 .link-footer a{
